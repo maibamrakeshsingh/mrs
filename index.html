@@ -98,7 +98,8 @@
     #content h1 {
       margin: 0 0 8px 0;
 
-      font-size: 42px;
+      /* Slightly increased */
+      font-size: 46px;
       line-height: 1.05;
       font-weight: 600;
 
@@ -130,6 +131,21 @@
 
     #content p strong {
       font-weight: 600;
+    }
+
+    /* Compact rectangular introduction box */
+    #content p.introduction {
+      max-width: 640px;
+
+      padding: 12px 16px;
+
+      border: 1px solid #d3d3d3;
+      border-radius: 4px;
+
+      background: #fafafa;
+
+      line-height: 1.35;
+      margin: 0 0 14px 0;
     }
 
 
@@ -240,11 +256,16 @@
       }
 
       #content h1 {
-        font-size: 36px;
+        font-size: 40px;
       }
 
       #content p {
         max-width: 100%;
+      }
+
+      #content p.introduction {
+        max-width: 100%;
+        padding: 11px 14px;
       }
 
       .icons {
@@ -296,16 +317,15 @@
          INTRODUCTION
          ========================= -->
 
-    <p>
+    <p class="introduction">
       I am a prospective Ph.D. researcher with a strong background in
       Statistics, Probability Theory, Stochastic Processes,
       Mathematical Modelling, and Data Science. My research
       interests include statistical modelling, machine learning,
       probabilistic modelling, complex systems, and financial data
       analysis, with particular interest in interdisciplinary
-      research at the intersection of
-      Statistics, Data Science, Statistical Mechanics, and
-      Mathematical Physics.
+      research at the intersection of Statistics, Data Science,
+      Statistical Mechanics, and Mathematical Physics.
     </p>
 
 
@@ -327,7 +347,6 @@
          ========================= -->
 
     <ul class="icons">
-
 
       <!-- Institutional Website -->
       <li>
@@ -429,7 +448,6 @@
           <i class="ai ai-orcid"></i>
         </a>
       </li>
-
 
     </ul>
 
